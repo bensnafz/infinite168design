@@ -13,16 +13,16 @@ import React from "react";
             </div>
             <div className="box">
               <h2 className="fz-40 fw-600 ls1 mb-20">
-                25 years <br /> of Experience
+              บริษัท อินฟินิท 168 ดีไซน์ แอนด์ คอนสตรัคชั่น
               </h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam
+              <p className="font-thai">
+              เป็นบริษัทรับออกแบบตกแต่งภายใน บ้าน คอนโด ร้านค้า สำนักงาน บริการครบวงจร(turn key) โดยทีม อินทีเรียดีไซน์เนอร์ 
+              ที่สามารถสร้างความโดดเด่น และสร้างเอกลักษณ์ของงานให้สอดคล้องกับ ผู้อยู่อาศัย ประกอบกับการสร้างานจากทีมช่างมืออาชีพ ประสบการณ์การทำงานมากกว่า 10 ปี
               </p>
             </div>
           </div>
           <div className="col-lg-7 img">
-            <img src="/assets/img/about1.jpg" alt="" />
+            <img src="/assets/img/maincontent/c1400-844.png" alt="" />
 
             <div className="feat mt-30">
               <div className="item">

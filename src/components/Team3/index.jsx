@@ -6,7 +6,9 @@ const Team3 = () => {
     <section className="team section-padding">
       <div className="container">
         <div className="section-head">
-          <h3>Our Team</h3>
+          <h3 className="font-thai">
+            ทีมงานของเรา
+          </h3>
         </div>
       </div>
       <div className="container-fluid">

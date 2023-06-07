@@ -16,18 +16,14 @@ const Home7 = () => {
   return (
     <MainLayout>
       <IntroWithVertical2 />
-      {/* <AboutUs8 /> */}
-      {/* <Services7 />
-      <WorkWithoutFilter />
+      <AboutUs8 />
+      <Services7 />
+      {/* <WorkWithoutFilter /> */}
       <Video2 />
-      <Team3 />
-      <Testimonials1 bigTitle />
-      <Blogs3 smallTitle /> */}
-      <div className="container">
-        <br /><br /><br />
-        <h3 className="text-center">Coming Soon....</h3>
-      </div>
-      <br /><br /><br />
+      {/* <Team3 /> */}
+      {/* <Testimonials1 bigTitle /> */}
+      {/* <Blogs3 smallTitle /> */}
+     
     </MainLayout>
   );
 };
