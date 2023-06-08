@@ -205,6 +205,8 @@ span:hover {
 .bg-img {
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .bg-center {
@@ -263,6 +265,17 @@ span:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.image-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.responsive-image {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .primery-shadow {
@@ -1185,7 +1198,6 @@ body {
   display: flex;
   align-items: center;
   padding: 5px;
-  
 }
 
 .icon-scroll.item-icon-scroll {
@@ -1670,7 +1682,6 @@ body {
   width: 100px;
   padding: 15px 0;
 }
-
 
 /* ====================== [ End navbar ] ====================== */
 /* ====================== [ Start Slider ] ====================== */
@@ -3383,6 +3394,20 @@ body {
   margin-top: 5px;
 }
 
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* ====================== [ End Call To Action  ] ====================== */
 /* ====================== [ Start tabs before & after section ] ====================== */
 .after-before {
@@ -4798,7 +4823,7 @@ body {
 }
 
 .font-thai {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 /* ====================== [ End Blog ] ====================== */
@@ -5130,7 +5155,7 @@ footer .item .copy-right p a {
   .slider .caption.center h1 {
     font-size: 40px;
   }
-  .cta__slider-item .media-wrapper .bg-img {
+  .cta__slider-item .media-wrapper .bg-img  {
     width: 100%;
   }
   .slider .parallax-slider .caption {
@@ -5385,9 +5410,19 @@ footer .item .copy-right p a {
     display: block;
     margin: 10px 0 0 0;
   }
+  .bg-img  {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .bg-img  {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   .fz-40 {
     font-size: 25px !important;
   }
@@ -5511,3 +5546,14 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+/* ======== [ New ] ==================*/
+.image-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.responsive-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

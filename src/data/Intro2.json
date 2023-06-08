@@ -4,7 +4,7 @@
     "title": { "first": "Welcome", "second": "infinite168design" },
     "content": {
       "first": "รับออกแบบตกแต่งภายใน",
-      "second": "สร้างสรรค์หลากหลายสไตร์เพื่อแสดงถึงความเป็นตัวคุณ"
+      "second": "สร้างสรรค์หลากหลายสไตล์เพื่อแสดงถึงความเป็นตัวคุณ"
     },
     "image": "/assets/img/contentIndex/index01.png"
   },
@@ -21,18 +21,27 @@
     "id": 3,
     "title": { "first": "style", "second": "modern classic luxury" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "",
+      "second": ""
     },
-    "image": "/assets/img/slid/n/03.jpg"
+    "image": "/assets/img/contentIndex/index03.png"
   },
   {
     "id": 4,
     "title": { "first": "style", "second": "modern loft" },
     "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+      "first": "",
+      "second": ""
     },
-    "image": "/assets/img/slid/n/03.jpg"
+    "image": "/assets/img/contentIndex/index04.png"
+  },
+  {
+    "id": 5,
+    "title": { "first": "style", "second": "modern minimal" },
+    "content": {
+      "first": "",
+      "second": ""
+    },
+    "image": "/assets/img/contentIndex/index05.jpg"
   }
 ]

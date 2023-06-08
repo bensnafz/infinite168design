@@ -1,7 +1,8 @@
 import React from "react";
 import Team3 from "../../components/Team3";
 import MainLayout from "../../layouts/main";
-import Video2 from "../../components/Video2";
+import Video from "../../components/Video";
+import Intro3 from "../../components/Intro3";
 import Blogs3 from "../../components/Blogs3";
 import AboutUs8 from "../../components/About-Us8";
 import Services7 from "../../components/Services7";
@@ -15,15 +16,23 @@ const Home7 = () => {
   });
   return (
     <MainLayout>
-      <IntroWithVertical2 />
+      {/* <IntroWithVertical2 /> */}
+      {/* <Intro3 /> */}
+      <div className="image-container">
+        <img
+          className="responsive-image"
+          src="/assets/img/contentIndex/index01.png"
+          alt="Image"
+        />
+      </div>
       <AboutUs8 />
       <Services7 />
       {/* <WorkWithoutFilter /> */}
-      <Video2 />
+      <Video />
       {/* <Team3 /> */}
       {/* <Testimonials1 bigTitle /> */}
       {/* <Blogs3 smallTitle /> */}
-     
+
     </MainLayout>
   );
 };

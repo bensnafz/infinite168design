@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../Split";
 import Link from "next/link";
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -72,45 +71,16 @@ const Intro3 = () => {
                 swiper.pagination.update();
               });
             }}
-            className="swiper-wrapper"
+            className="swiper-wrapper image-container"
             slidesPerView={1}
           >
             {intro3Data.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
-                  className="bg-img valign"
+                  className="bg-img"
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
                 >
-                  <div className="container">
-                    <div className="row justify-content-center">
-                      <div className="col-lg-7 col-md-9">
-                        <div className="caption center">
-                          <Split>
-                            <h1
-                              data-splitting
-                              className="playfont words chars splitting"
-                            >
-                              <Link href="#">
-                                <a>
-                                  {slide.title.first} <br />
-                                  {slide.title.second}
-                                </a>
-                              </Link>
-                            </h1>
-                          </Split>
-                          {slide?.content && (
-                            <p className="mt-10">{slide.content}</p>
-                          )}
-                          <Link href="/work3">
-                            <a className="btn-curve btn-color mt-20">
-                              <span>Discover Work</span>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </SwiperSlide>
             ))}
