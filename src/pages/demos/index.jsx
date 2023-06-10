@@ -66,7 +66,7 @@ const Demos = () => {
           margin: 25px 0 15px;
           font-size: 17px;
           font-weight: 400;
-          font-family: "Jost", sans-serif;
+          font-family: "Prompt", sans-serif;
           text-align: center;
         }
 
