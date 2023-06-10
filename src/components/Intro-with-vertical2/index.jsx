@@ -89,7 +89,7 @@ const IntroWithVertical2 = () => {
                 >
                   <div className="media-wrapper slide-inner valign">
                     <div
-                      className="bg-img"
+                      className="bg-img img-fluid"
                       style={{ backgroundImage: `url(${slide.image})` }}
                       data-overlay-dark="5"
                     ></div>

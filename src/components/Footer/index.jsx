@@ -37,7 +37,7 @@ const Footer = ({ classText }) => {
               </ul>
             </div>
           </div>
-          {/* <div className="col-lg-4">
+          <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
                 <h5>Recent News</h5>
@@ -47,7 +47,7 @@ const Footer = ({ classText }) => {
                   <div className="img">
                     <Link href="/blog-details">
                       <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
+                        {/* <img src="/assets/img/blog/1.jpg" alt="" /> */}
                       </a>
                     </Link>
                   </div>
@@ -56,15 +56,14 @@ const Footer = ({ classText }) => {
                     <Link href="/blog-details">
                       <a>
                         <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
+                          Coming soon.
                         </p>
                       </a>
                     </Link>
-                    <span className="date">14 Jan 2022</span>
+                    {/* <span className="date">14 Jan 2022</span> */}
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="img">
                     <Link href="/blog-details">
                       <a>
@@ -83,7 +82,7 @@ const Footer = ({ classText }) => {
                     </Link>
                     <span className="date">14 Jan 2022</span>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Type Your Email" />
@@ -92,7 +91,7 @@ const Footer = ({ classText }) => {
                 </li>
               </ul>
             </div>
-          </div> */}
+          </div>
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">

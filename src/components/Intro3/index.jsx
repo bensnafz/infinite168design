@@ -27,7 +27,7 @@ const Intro3 = () => {
   const paginationRef = React.useRef(null);
 
   return (
-    <header className="slider text-center">
+    <header className="slider">
       <div className="swiper-container parallax-slider">
         {!load ? (
           <Swiper
@@ -71,13 +71,13 @@ const Intro3 = () => {
                 swiper.pagination.update();
               });
             }}
-            className="swiper-wrapper image-container"
+            className="image-container"
             slidesPerView={1}
           >
             {intro3Data.map((slide) => (
-              <SwiperSlide key={slide.id} className="swiper-slide">
+              <SwiperSlide key={slide.id} className="swiper-slide responsive-image">
                 <div
-                  className="bg-img"
+                  className="bg-img responsive-image"
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
                 >

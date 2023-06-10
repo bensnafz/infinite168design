@@ -2,7 +2,7 @@ import React from "react";
 
 const Services7 = () => {
   return (
-    <section className="services section-padding pb-0">
+    <section className="services section-padding pb-0" >
       <div className="container">
         <div className="section-head">
           <h3 className="font-thai">การบริการ</h3>
@@ -14,7 +14,7 @@ const Services7 = () => {
               <h6>งานเขียนแบบก่อสร้างเฟอร์นิเจอร์</h6>
               {/* <p>
                 แบบก่อสร้างงานสถาปัตยกรรมภายใน (interior architectural working drawing) เขียนขึ้นโดยมีจุดประสงค์เพื่อให้สามารถนำไปใช้เป็นแนวทางในการก่อสร้าง
-              </p> */}
+              </p> */}  
             </div>
           </div>
           <div className="col-lg-2">

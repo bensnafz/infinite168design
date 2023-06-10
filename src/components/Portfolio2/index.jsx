@@ -7,90 +7,101 @@ const Portfolio2 = () => {
     worksCardEffect();
   }, []);
   return (
-    <section className="portfolio full-bg">
-      <div className="container-fluid">
+    <>
+      <div className="container">
+        <br />
         <div className="row">
-          <div className="col-lg-3 col-md-6 cluom current" data-tab="tab-1">
-            <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Exterior Designs</h5>
-            </div>
-            <div className="more">
-              <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
-              </Link>
-            </div>
+          <div className="col align-self-center">
+            <h3>Design By Infinite168</h3>
           </div>
-          <div className="col-lg-3 col-md-6 cluom" data-tab="tab-2">
-            <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Maroon Beach Hotel</h5>
+        </div>
+        <br />
+      </div>
+      <section className="portfolio full-bg">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 cluom current" data-tab="tab-1">
+              <div className="info">
+                <h6 className="custom-font">Interior</h6>
+                <h5>Modern Luxury</h5>
+              </div>
+              <div className="more">
+                <Link href="/project-details">
+                  <a>
+                    ดูรายละเอียด <i className="fas fa-chevron-right"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
-            <div className="more">
-              <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
-              </Link>
+            <div className="col-lg-3 col-md-6 cluom" data-tab="tab-2">
+              <div className="info">
+                <h6 className="custom-font">Interior</h6>
+                <h5>Modern Classic Luxury</h5>
+              </div>
+              <div className="more">
+                <Link href="/project-details">
+                  <a>
+                    ดูรายละเอียด <i className="fas fa-chevron-right"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6 cluom" data-tab="tab-3">
-            <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Apartment Renovation</h5>
+            <div className="col-lg-3 col-md-6 cluom" data-tab="tab-3">
+              <div className="info">
+                <h6 className="custom-font">Interior</h6>
+                <h5>Modern Loft</h5>
+              </div>
+              <div className="more">
+                <Link href="/project-details">
+                  <a>
+                    ดูรายละเอียด <i className="fas fa-chevron-right"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
-            <div className="more">
-              <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
-            <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Modern Minimalist House</h5>
-            </div>
-            <div className="more">
-              <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
-              </Link>
+            <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
+              <div className="info">
+                <h6 className="custom-font">Interior</h6>
+                <h5>Modern Minimal</h5>
+              </div>
+              <div className="more">
+                <Link href="/project-details">
+                  <a>
+                    ดูรายละเอียด <i className="fas fa-chevron-right"></i>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="glry-img">
-        <div
-          id="tab-1"
-          className="bg-img tab-img current"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/01.jpg)` }}
-          data-overlay-dark="2"
-        ></div>
-        <div
-          id="tab-2"
-          className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/02.jpg)` }}
-          data-overlay-dark="2"
-        ></div>
-        <div
-          id="tab-3"
-          className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/03.jpg)` }}
-          data-overlay-dark="2"
-        ></div>
-        <div
-          id="tab-4"
-          className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/04.jpg)` }}
-          data-overlay-dark="2"
-        ></div>
-      </div>
-    </section>
+        <div className="glry-img">
+          <div
+            id="tab-1"
+            className="bg-img tab-img current"
+            style={{ backgroundImage: `url(/assets/img/portfolio/ml.png)` }}
+            data-overlay-dark="2"
+          ></div>
+          <div
+            id="tab-2"
+            className="bg-img tab-img"
+            style={{ backgroundImage: `url(/assets/img/portfolio/mcl.png)` }}
+            data-overlay-dark="2"
+          ></div>
+          <div
+            id="tab-3"
+            className="bg-img tab-img"
+            style={{ backgroundImage: `url(/assets/img/portfolio/mloft.png)` }}
+            data-overlay-dark="2"
+          ></div>
+          <div
+            id="tab-4"
+            className="bg-img tab-img"
+            style={{ backgroundImage: `url(/assets/img/portfolio/mm.png)` }}
+            data-overlay-dark="2"
+          ></div>
+        </div>
+      </section>
+    </>
   );
 };
 
