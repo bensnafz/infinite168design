@@ -35,7 +35,7 @@ const Home7 = () => {
             </div>
           </div>
       <Video />
-      <Team3 />
+      {/* <Team3 /> */}
       {/* <Testimonials1 bigTitle /> */}
       {/* <Blogs3 smallTitle /> */}
     </MainLayout>
